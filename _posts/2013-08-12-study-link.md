@@ -6,11 +6,11 @@ tags: [学习, link]
 ---
 
 #视频学习网址：
-1、猿代码            `link: http://www.ydma.cn/`
-2、慕课网            `link: http://www.imooc.com/`
-3、麦子学院          `link: http://www.maiziedu.com/`
-4、极客学院          `link: http://www.jikexueyuan.com/`
-5、CSDN网            `link: http://edu.csdn.net/`  
+>猿代码            `link: http://www.ydma.cn/`
+>慕课网            `link: http://www.imooc.com/`
+>麦子学院          `link: http://www.maiziedu.com/`
+>极客学院          `link: http://www.jikexueyuan.com/`
+>CSDN网            `link: http://edu.csdn.net/`  
 
 ##模拟环境学习网址：
 1、计蒜客            `link: http://www.jisuanke.com/`
