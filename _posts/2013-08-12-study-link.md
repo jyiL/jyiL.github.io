@@ -50,31 +50,31 @@ tags: [学习, link]
 * 牛课网  <a href="http://www.nowcoder.com/">`link: http://www.nowcoder.com/`</a>
 
 ## 翻墙软件推荐：
-* greenvpn    `link: http://www.greenfudi.com/`  每天有一个小时免费的
+* greenvpn    <a href="http://www.greenfudi.com/">`link: http://www.greenfudi.com/`</a>  每天有一个小时免费的
 
 ## 弹窗对话框插件：
-* Larer  `link: http://layer.layui.com/`
-* artDialog `link: http://lab.seaning.com/index.html`
+* Larer  <a href="http://layer.layui.com/">`link: http://layer.layui.com/`</a>
+* artDialog <a href="http://lab.seaning.com/index.html">`link: http://lab.seaning.com/index.html`</a>
 
 ## 图片裁剪插件：
-jscrop 
-* `link: http://jcrop.org/`     
-* `link: http://www.cnblogs.com/xiaoyao2011/archive/2012/06/29/Jcrop.html`
+### jscrop 
+* <a href="http://jcrop.org/">`link: http://jcrop.org/`</a>     
+* <a href="http://www.cnblogs.com/xiaoyao2011/archive/2012/06/29/Jcrop.html">`link: http://www.cnblogs.com/xiaoyao2011/archive/2012/06/29/Jcrop.html`</a>
 
 
 ## 基于bootstrap后台框架:
 * ACE    
-* Amaze  `link: http://www.js-css.cn/divcss/admin/Amaze/admin-table.html`
+* Amaze  <a href="http://www.js-css.cn/divcss/admin/Amaze/admin-table.html">`link: http://www.js-css.cn/divcss/admin/Amaze/admin-table.html`</a>
 
 ## 蘑菇街开源的一款企业办公及时通信软件：
-* `link: https://github.com/mogutt/README`
-* `link: http://tt.mogu.io/`
+* <a href="https://github.com/mogutt/README">`link: https://github.com/mogutt/README`</a>
+* <a href="http://tt.mogu.io/">`link: http://tt.mogu.io/`</a>
 
 ## 使用PHP+Swoole实现的网页即时聊天工具
-* `link: https://github.com/matyhtf/php-webim`
+* <a href="https://github.com/matyhtf/php-webim">`link: https://github.com/matyhtf/php-webim`</a>
 
 ## PHP聊天框架：
-* `link: http://www.workerman.net/`
+* <a href="http://www.workerman.net/">`link: http://www.workerman.net/`</a>
 
 ## 常用IDE(集成开发环境)：
 * phpstorm          
@@ -82,4 +82,4 @@ jscrop
 * Zend Studio
 
 ## 收集了有关互联网相关信息（RFC）
-* `link: http://oss.org.cn/man/develop/rfc/default.htm`
+* <a href="http://oss.org.cn/man/develop/rfc/default.htm">`link: http://oss.org.cn/man/develop/rfc/default.htm`</a>
