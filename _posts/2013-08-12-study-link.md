@@ -5,33 +5,28 @@ description: ""
 tags: [学习, link]
 ---
 
-#视频学习网址：
+## 视频学习网址：
 >猿代码            `link: http://www.ydma.cn/`
 >慕课网            `link: http://www.imooc.com/`
 >麦子学院          `link: http://www.maiziedu.com/`
 >极客学院          `link: http://www.jikexueyuan.com/`
 >CSDN网            `link: http://edu.csdn.net/`  
 
-##模拟环境学习网址：
-1、计蒜客            `link: http://www.jisuanke.com/`
-2、实验楼            `link: https://www.shiyanlou.com/`
+## 模拟环境学习网址：
+>计蒜客            `link: http://www.jisuanke.com/`
+>实验楼            `link: https://www.shiyanlou.com/`
 
 
-###资源网站：
-1、什么都有的网站    `link: https://github.com/`     
-2、前端素材资源网    `link: http://www.iguoguo.net/`
-3、程序员网址大全    `link: http://www.tnten.com/`
-
-
-3、微信学习网站      `link: http://www.cnblogs.com/txw1958/p/wechat-tutorial.html`
-
-
-
-4、微信开发官方文档  `link: http://mp.weixin.qq.com/wiki/home/`
-5、图灵机器人        `link: http://www.tuling123.com/openapi/cloud/home.jsp`
-6、免费资源部落      `link: http://www.freehao123.com/`
-7、免费在线客服系统  `link: http://www.54kefu.net/`
-8、类似w3c的网站     `link: http://www.runoob.com/`
+## 资源网站：
+>什么都有的网站    `link: https://github.com/`     
+>前端素材资源网    `link: http://www.iguoguo.net/`
+>程序员网址大全    `link: http://www.tnten.com/`
+>微信学习网站      `link: http://www.cnblogs.com/txw1958/p/wechat-tutorial.html`
+>微信开发官方文档  `link: http://mp.weixin.qq.com/wiki/home/`
+>图灵机器人        `link: http://www.tuling123.com/openapi/cloud/home.jsp`
+>免费资源部落      `link: http://www.freehao123.com/`
+>免费在线客服系统  `link: http://www.54kefu.net/`
+>类似w3c的网站     `link: http://www.runoob.com/`
 
 
 #前端框架网站：
