@@ -7,26 +7,26 @@ tags: [学习, link]
 
 ## 视频学习网址：
 猿代码            <a href="http://www.ydma.cn/">`link: http://www.ydma.cn/`</a>
-* 慕课网            `link: http://www.imooc.com/`
-* 麦子学院          `link: http://www.maiziedu.com/`
-* 极客学院          `link: http://www.jikexueyuan.com/`
-* CSDN网            `link: http://edu.csdn.net/`  
+慕课网            <a href="http://www.imooc.com/">`link: http://www.imooc.com/`</a>
+麦子学院          <a href="http://www.maiziedu.com/">`link: http://www.maiziedu.com/`</a>
+极客学院          <a href="http://www.jikexueyuan.com/">`link: http://www.jikexueyuan.com/`</a>
+CSDN网            <a href="http://edu.csdn.net/">`link: http://edu.csdn.net/`</a>  
 
 ## 模拟环境学习网址：
-* 计蒜客            `link: http://www.jisuanke.com/`
-* 实验楼            `link: https://www.shiyanlou.com/`
+计蒜客            <a href="http://www.jisuanke.com/">`link: http://www.jisuanke.com/`</a>
+实验楼            <a href="https://www.shiyanlou.com/">`link: https://www.shiyanlou.com/`</a>
 
 
 ## 资源网站：
-* 什么都有的网站    `link: https://github.com/`     
-* 前端素材资源网    `link: http://www.iguoguo.net/`
-* 程序员网址大全    `link: http://www.tnten.com/`
-* 微信学习网站      `link: http://www.cnblogs.com/txw1958/p/wechat-tutorial.html`
-* 微信开发官方文档  `link: http://mp.weixin.qq.com/wiki/home/`
-* 图灵机器人        `link: http://www.tuling123.com/openapi/cloud/home.jsp`
-* 免费资源部落      `link: http://www.freehao123.com/`
-* 免费在线客服系统  `link: http://www.54kefu.net/`
-* 类似w3c的网站     `link: http://www.runoob.com/`
+什么都有的网站    <a href="https://github.com/">`link: https://github.com/`</a>     
+前端素材资源网    <a href="http://www.iguoguo.net/">`link: http://www.iguoguo.net/`</a>
+程序员网址大全    <a href="http://www.tnten.com/">`link: http://www.tnten.com/`</a>
+微信学习网站      <a href="http://www.cnblogs.com/txw1958/p/wechat-tutorial.html">`link: http://www.cnblogs.com/txw1958/p/wechat-tutorial.html`</a>
+微信开发官方文档  <a href="http://mp.weixin.qq.com/wiki/home/">`link: http://mp.weixin.qq.com/wiki/home/`</a>
+图灵机器人        <a href="http://www.tuling123.com/openapi/cloud/home.jsp">`link: http://www.tuling123.com/openapi/cloud/home.jsp`</a>
+免费资源部落      <a href="http://www.freehao123.com/">`link: http://www.freehao123.com/`</a>
+免费在线客服系统  <a href="http://www.54kefu.net/">`link: http://www.54kefu.net/`</a>
+类似w3c的网站     <a href="http://www.runoob.com/">`link: http://www.runoob.com/`</a>
 
 
 ## 前端框架网站：
