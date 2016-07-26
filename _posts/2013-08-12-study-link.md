@@ -3,17 +3,16 @@ layout: post
 title: "学习网站"
 description: ""
 tags: [学习, link]
-comments: true
 ---
 
-###视频学习网址：
+#视频学习网址：
 1、猿代码            `link: http://www.ydma.cn/`
 2、慕课网            `link: http://www.imooc.com/`
 3、麦子学院          `link: http://www.maiziedu.com/`
 4、极客学院          `link: http://www.jikexueyuan.com/`
 5、CSDN网            `link: http://edu.csdn.net/`  
 
-###模拟环境学习网址：
+##模拟环境学习网址：
 1、计蒜客            `link: http://www.jisuanke.com/`
 2、实验楼            `link: https://www.shiyanlou.com/`
 
