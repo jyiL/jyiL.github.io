@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Syntax Highlighting Post
-description: "Demo post displaying the various ways of highlighting code in Markdown."
+title: 主从数据库
+description: ""
 modified: 2016-06-01T15:27:45-04:00
 tags: [sample post, code, highlighting]
 image:
@@ -10,111 +10,87 @@ image:
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
-Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.[^1]
+### 读写分离
+> 主数据库负责写，从库负责读
+> 从库复制主库bin-log日志
 
-[^1]: <http://en.wikipedia.org/wiki/Syntax_highlighting>
-
-### Highlighted Code Blocks
-
-To modify styling and highlight colors edit `/_sass/_syntax.scss`.
-
-```css
-#container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
-}
-```
-
-```html
-{% raw %}<nav class="pagination" role="navigation">
-    {% if page.previous %}
-        <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
-    {% endif %}
-    {% if page.next %}
-        <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
-    {% endif %}
-</nav><!-- /.pagination -->{% endraw %}
-```
-
-```ruby
-module Jekyll
-  class TagIndex < Page
-    def initialize(site, base, dir, tag)
-      @site = site
-      @base = base
-      @dir = dir
-      @name = 'index.html'
-      self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
-      self.data['tag'] = tag
-      tag_title_prefix = site.config['tag_title_prefix'] || 'Tagged: '
-      tag_title_suffix = site.config['tag_title_suffix'] || '&#8211;'
-      self.data['title'] = "#{tag_title_prefix}#{tag}"
-      self.data['description'] = "An archive of posts tagged #{tag}."
-    end
-  end
-end
-```
+  
 
 
-### Standard Code Block
-
-    {% raw %}<nav class="pagination" role="navigation">
-        {% if page.previous %}
-            <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
-        {% endif %}
-        {% if page.next %}
-            <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
-        {% endif %}
-    </nav><!-- /.pagination -->{% endraw %}
+### 如何查看bin-log
+使用mysql提供命令  mysqlbinlog 查看bin-log内容
 
 
-### Fenced Code Blocks
+### bin-log的作用
+1. 可以做数据恢复
+    数据库经常做备份。
 
-To modify styling and highlight colors edit `/_sass/_coderay.scss`. Line numbers and a few other things can be modified in `_config.yml`. Consult [Jekyll's documentation](http://jekyllrb.com/docs/configuration/) for more information.
+        16:11    做好一个备份  a.sql
 
-~~~ css
-#container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
-}
-~~~
+        16:20   用户插入了一条新数据
 
-~~~ html
-{% raw %}<nav class="pagination" role="navigation">
-    {% if page.previous %}
-        <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
-    {% endif %}
-    {% if page.next %}
-        <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
-    {% endif %}
-</nav><!-- /.pagination -->{% endraw %}
-~~~
 
-~~~ ruby
-module Jekyll
-  class TagIndex < Page
-    def initialize(site, base, dir, tag)
-      @site = site
-      @base = base
-      @dir = dir
-      @name = 'index.html'
-      self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
-      self.data['tag'] = tag
-      tag_title_prefix = site.config['tag_title_prefix'] || 'Tagged: '
-      tag_title_suffix = site.config['tag_title_suffix'] || '&#8211;'
-      self.data['title'] = "#{tag_title_prefix}#{tag}"
-      self.data['description'] = "An archive of posts tagged #{tag}."
-    end
-  end
-end
-~~~
+        16:50   数据库数据发生丢失
 
-### GitHub Gist Embed
 
-An example of a Gist embed below.
+
+        17:00  做数据恢复
+
+             a.sql    
+
+
+2. 可以做读写分离
+
+
+### 主从配置
+优点：1. 减轻数据库压力 2. 提高查询速度  
+      3. 从库可以备份数据
+
+缺点：1. 数据同步可能存在时间差。
+
+对策：数据实时性要求高的场合，数据还是从主库查询。
+
+建议开启从库的bin-log,原因：1. bin-log可以做备份  
+  2. 万一主库挂掉，从库可以迅速转换成主库。
+
+
+
+### 重点
+    1. 会话控制 
+        a. 为什么需要会话控制
+        b. SESSION与COOKIE的区别与联系
+        c. 如果禁用COOKIE，SESSION是否还可以使用，怎么识别用户？
+
+    2. 各种区别
+        a. post与get区别
+            从协议角度看，post与get区别在于，get一般用来获取
+            服务器的数据，post一般用于向服务器发送数据。
+
+            从具体应用(表单)：
+                1. 大小
+                2. 安全性
+                3. 
+
+        c. include require区别  include_once
+
+        d. echo ,print ,print_r 区别
+            echo,print是语言结构，print_r是函数
+
+    3. 数据库优化(*****)
+
+
+    4. 数据库基本操作(****)
+
+    5. 能够写出一些简单的正则
+        匹配到a连接中的href里面的内容
+        <link rel="stylesheet" type="text/css" href="fdsjakf">
+        <a href="fdsajfk">fdsjak</a>
+
+    6. 面向对象一些概念
+
+    7. javascript
+
+    8. 你会哪些版本控制器
+        svn  git
 
 <script src="https://gist.github.com/mmistakes/43a355923921d22cd993.js"></script>
