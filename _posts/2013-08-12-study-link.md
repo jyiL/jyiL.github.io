@@ -58,8 +58,8 @@ tags: [学习, link]
 
 ## 图片裁剪插件：
 * jscrop 
-<a href="http://jcrop.org/" target="view_window">`link: http://jcrop.org/`</a>     
-<a href="http://www.cnblogs.com/xiaoyao2011/archive/2012/06/29/Jcrop.html" target="view_window">`link: http://www.cnblogs.com/xiaoyao2011/archive/2012/06/29/Jcrop.html`</a>
+1. <a href="http://jcrop.org/" target="view_window">`link: http://jcrop.org/`</a>     
+2. <a href="http://www.cnblogs.com/xiaoyao2011/archive/2012/06/29/Jcrop.html" target="view_window">`link: http://www.cnblogs.com/xiaoyao2011/archive/2012/06/29/Jcrop.html`</a>
 
 
 ## 基于bootstrap后台框架:
