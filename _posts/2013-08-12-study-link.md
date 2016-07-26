@@ -1,24 +1,24 @@
 ---
 layout: post
-title: "Sample Link Post"
-description: "Example and code for using link posts."
+title: "学习网站"
+description: ""
 tags: [学习, link]
 comments: true
 ---
 
-#视频学习网址：
+###视频学习网址：
 1、猿代码            `link: http://www.ydma.cn/`
 2、慕课网            `link: http://www.imooc.com/`
 3、麦子学院          `link: http://www.maiziedu.com/`
 4、极客学院          `link: http://www.jikexueyuan.com/`
 5、CSDN网            `link: http://edu.csdn.net/`  
 
-#模拟环境学习网址：
+###模拟环境学习网址：
 1、计蒜客            `link: http://www.jisuanke.com/`
 2、实验楼            `link: https://www.shiyanlou.com/`
 
 
-#资源网站：
+###资源网站：
 1、什么都有的网站    `link: https://github.com/`     
 2、前端素材资源网    `link: http://www.iguoguo.net/`
 3、程序员网址大全    `link: http://www.tnten.com/`
