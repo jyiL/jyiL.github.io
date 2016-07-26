@@ -6,7 +6,7 @@ tags: [学习, link]
 ---
 
 ## 视频学习网址：
-* 猿代码            <a href="http://www.ydma.cn/">`link: http://www.ydma.cn/`</a>
+* 猿代码            <a href="http://www.ydma.cn/" target="view_window">`link: http://www.ydma.cn/`</a>
 * 慕课网            <a href="http://www.imooc.com/">`link: http://www.imooc.com/`</a>
 * 麦子学院          <a href="http://www.maiziedu.com/">`link: http://www.maiziedu.com/`</a>
 * 极客学院          <a href="http://www.jikexueyuan.com/">`link: http://www.jikexueyuan.com/`</a>
