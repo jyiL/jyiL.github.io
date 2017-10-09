@@ -4,7 +4,7 @@ title: notadd权限设计
 description: ""
 tags: [notadd, PHP, laravel, composer]
 image:
-  background: abstract-1.png
+  background: triangular.png
 ---
 
 # notadd
