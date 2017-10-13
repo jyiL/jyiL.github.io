@@ -12,9 +12,9 @@ image:
 
 ### PHPUnit安装
     wget https://phar.phpunit.de/phpunit-6.2.phar
-    $ chmod +x phpunit-6.2.phar
-    $ sudo mv phpunit-6.2.phar /usr/local/bin/phpunit
-    $ phpunit --version
+    chmod +x phpunit-6.2.phar
+    sudo mv phpunit-6.2.phar /usr/local/bin/phpunit
+    phpunit --version
 
 ### composer依赖
     composer require --dev phpunit/phpunit ^6.3
