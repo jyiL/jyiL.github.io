@@ -1,44 +1,33 @@
 ---
 layout: post
-title: phpunit学习笔记01
+title: PHPUnit学习笔记01
 description: ""
 tags: [phpunit, PHP]
 image:
   background: triangular.png
 ---
 
-#PHPUnit
+# PHPUnit
 <a href="https://phpunit.de" target="view_window">`link: https://phpunit.de`</a>
 
-###PHPUnit安装
+### PHPUnit安装
     wget https://phar.phpunit.de/phpunit-6.2.phar
     $ chmod +x phpunit-6.2.phar
     $ sudo mv phpunit-6.2.phar /usr/local/bin/phpunit
     $ phpunit --version
 
-###composer依赖
+### composer依赖
     composer require --dev phpunit/phpunit ^6.3
 
-###编写PHPUnit测试
+### 编写PHPUnit测试
 * 针对类 Class 的测试写在类 ClassTest中。
 
 * ClassTest（通常）继承自 PHPUnit\Framework\TestCase。
 
 * 测试都是命名为 test* 的公用方法。 也可以在方法的文档注释块(docblock)中使用 @test 标注将其标记为测试方法。
 
-    public function testPushAndPop()
-    {
-        $stack = [];
-        $this->assertEquals(0, count($stack));
 
-        array_push($stack, '我是一只猪');
-        $this->assertEquals('我是一只猪', $stack[count($stack)-1]);
-        $this->assertEquals(1, count($stack));
-
-        $this->assertEquals('我是一只猪', array_pop($stack));
-        $this->assertEquals(0, count($stack));
-    }
-
+![avatar](../images/phpunit/phpunit01.png)
 
     Time: 157 ms, Memory: 6.00MB
 
@@ -49,7 +38,7 @@ image:
 
 
 
-###命令行测试
+### 命令行测试
     phpunit ArrayTest
     PHPUnit 6.4.0 by Sebastian Bergmann and contributors.
 
@@ -75,40 +64,13 @@ PHPUnit在当前工作目录中寻找ArrayTest.php文件并加载，对于每个
 > I 当测试被标记为不完整或未实现时输出
 
 
-###测试的依赖关系
+### 测试的依赖关系
 PHPUnit支持对测试方法之间的显式依赖关系进行声明。这种依赖关系并不是定义在测试方法的执行顺序中，而是允许生产者(producer)返回一个测试基境(fixture)的实例，并将此实例传递给依赖于它的消费者(consumer)们。
 
 * 生产者(producer)，是能生成被测单元并将其作为返回值的测试方法。
 * 消费者(consumer)，是依赖于一个或多个生产者及其返回值的测试方法。
 
-    public function testEmpty()
-    {
-        $stack = [];
-        $this->assertEmpty($stack);
-
-        return $stack;
-    }
-
-    /**
-     * @depends clone testEmpty
-     */
-    public function testPush(array $stack)
-    {
-        array_push($stack, 'foo');
-        $this->assertEquals('foo', $stack[count($stack)-1]);
-        $this->assertNotEmpty($stack);
-
-        return $stack;
-    }
-
-    /**
-     * @depends clone testPush
-     */
-    public function testPop(array $stack)
-    {
-        $this->assertEquals('foo', array_pop($stack));
-        $this->assertEmpty($stack);
-    }
+![avatar](../images/phpunit/phpunit02.png)
 
     ...                                                                 3 / 3 (100%)
 
