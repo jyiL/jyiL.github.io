@@ -71,4 +71,6 @@ index.php
 		use thiagoalessio\TesseractOCR\TesseractOCR;
 		echo (new TesseractOCR('./text.png'))
     	->run();
+
+
 >注意：需编辑php.ini开启exec
