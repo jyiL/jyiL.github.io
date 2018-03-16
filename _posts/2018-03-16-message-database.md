@@ -4,7 +4,7 @@ title: 消息管理数据字典设计
 description: ""
 tags: [database, message]
 image:
-  background: abstract-12.jpg
+  background: abstract-4.jpg
 ---
 
 ### 消息管理数据字典
