@@ -48,6 +48,7 @@ image:
 	second_title|二级标题|varchar(100)|是|
 	content|内容|text|否|
 	status|状态|tinyint|否|0：关闭 1：开启
+	var_data|可用的变量|json|是|模板可用的变量列表 预留字段
 	remark|备注|text|是|预留字段
 	created_at|创建时间|timestamp|否|记录创建时自动生成
 	updated_at|更新时间|timestamp|否|记录修改是自动更新
