@@ -56,9 +56,7 @@ image:
 
 > notify表存储公告跟提醒消息，notify_user表关联notify表。比如后台发布了一条公告，那么notify表就会有一条公告数据，notify_user表对应所发送的用户。发送所有用户，notify_user表就存储所有用户的用户ID跟对应的消息ID，发送特定用户或者个人用户就存储所对应的消息ID和用户ID。
 
-* 事例
-
-#
+##### 事例
 	notify
 
 	id：1
@@ -70,7 +68,7 @@ image:
 	send_type：1
 
 
-#
+##### 事例
 	notify_user
 
 	is_read：0
@@ -80,8 +78,7 @@ image:
 
 > notify_template表是存储消息模板。假设notify_template有一条模板数据并且已经开启。用户申请贷款成功后发送提醒消息。
 
-* 事例
-#
+
 	notify_template
 
 	id：1
@@ -92,7 +89,8 @@ image:
 	content：尊敬的客户，您已申请{$productName}（产品名称）贷款，一共贷款 {$money}元，贷款期限为{$month}月，银行工作人员将于15个工作日内联系你审核资料，感谢您的支持。
 	status：1
 
-#
+##### 事例
+
 	notify
 
 	id：2
@@ -104,7 +102,7 @@ image:
 	send_type：3
 
 
-#
+##### 事例
 	notify_user
 
 	is_read：0
