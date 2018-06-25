@@ -15,6 +15,8 @@ image:
 	sudo pecl install grpc
 	安装成功后添加php.ini
 	extension=grpc.so
+
+
 * `注意：`<a href="https://grpc.io/docs/quickstart/php.html#build-and-install-the-grpc-c-core-library" target="view_window">`源码安装请查看官网示例`</a>
 * phpinfo()或php -m | grep grpc查看是否安装成功
 
