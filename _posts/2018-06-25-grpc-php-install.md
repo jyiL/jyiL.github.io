@@ -15,10 +15,10 @@ image:
 	sudo pecl install grpc
 	安装成功后添加php.ini
 	extension=grpc.so
+	phpinfo()或php -m | grep grpc查看是否安装成功
 
 
 * `注意：`<a href="https://grpc.io/docs/quickstart/php.html#build-and-install-the-grpc-c-core-library" target="view_window">`源码安装请查看官网示例`</a>
-* phpinfo()或php -m | grep grpc查看是否安装成功
 
 #### 安装protobuf
 
@@ -29,7 +29,9 @@ image:
 	cd protobuf-3.6.0
 	./configure --prefix=/usr/local/protobuf
 	make && make install
+	vi /etc/profile
 	export PATH=/usr/local/protobuf/bin:$PATH
+	source /etc/profile
 	protoc --version    // 没有报错，显示版本号说明安装成功
 
 #### 安装protobuf扩展
