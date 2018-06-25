@@ -38,7 +38,7 @@ image:
 	sudo pecl install protobuf
 	安装成功后添加php.ini
 	extension=protobuf.so
-* phpinfo()或php -m | grep protobuf查看是否安装成功
+	phpinfo()或php -m | grep protobuf查看是否安装成功
 
 #### 构建gRPC PHP protoc插件
 	git clone -b $(curl -L https://grpc.io/release) https://github.com/grpc/grpc
