@@ -54,9 +54,11 @@ packagist tymon/jwt-auth
 laravel的验证模型为APP\User
 
 目前博主采用的解决方案是通过设置载荷（Payload）把laravel的身份验证模型改为Notadd\Foundation\Member\Member
+
     JWTAuth::claims(['prv' => sha1('Notadd\Foundation\Member\Member')]);
 
 设置成功后生产token即可
+
     \Auth::guard()->attempt($request->only(['name', 'password']));
     $user = \Auth::guard()->user(); 
     $token = JWTAuth::fromUser($user);   
