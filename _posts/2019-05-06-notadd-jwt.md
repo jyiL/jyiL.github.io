@@ -50,7 +50,7 @@ packagist tymon/jwt-auth
 
 ![avatar](../images/notadd/WX20190506-101924.png)
 
-经代码调试发现prv生成规则是采用sha1算法加密模型.而notadd的验证模型是Notadd\Foundation\Member\Member
+经代码调试发现prv生成规则是采用sha1算法加密模型.而notadd的验证模型是Notadd\Foundation\Member\Member,
 laravel的验证模型为APP\User
 
 目前博主采用的解决方案是通过设置载荷（Payload）把laravel的身份验证模型改为Notadd\Foundation\Member\Member
