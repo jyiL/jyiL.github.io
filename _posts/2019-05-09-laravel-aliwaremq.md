@@ -51,4 +51,9 @@ resourceOwnerId|主账号id
     app('aliwaremq')->noAck = false;
     app('aliwaremq')->nowait = false;
     
+#### 匿名函数
+    app('aliwaremq')->receive($queue, '', function ($msgBody) {
+        echo 'body---' . $msgBody;
+    });
+    
 * 使用本扩展包前请对<a href="https://www.rabbitmq.com" target="view_window">`RabbitMQ`</a>有一定的了解    
