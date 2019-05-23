@@ -87,3 +87,6 @@ exclude:
   - package.json
   - spec
   - tmp
+  
+  site:
+    baidu-analyisis: f1148f1a46e74397ef1ff8f925563d5f
