@@ -52,7 +52,7 @@ image:
 
 ### 修改nginx配置
 ```
-    # 打开以下注释并修改端口
+    # 打开以下注释并修改配置
     vi /data/nginx/conf.d/default.conf
     
     location / {
