@@ -10,7 +10,7 @@ image:
 ## docker搭建nginx+php-fpm环境
 
 关于docker的安装和基本常用命令请读者自行google,本文不做阐述
-本次示例所用的系统和dock版本
+本次示例所用的系统和docker版本
 * centos7.5
 * Docker version 1.13.1
 
