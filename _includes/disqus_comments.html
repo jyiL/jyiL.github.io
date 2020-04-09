@@ -1,10 +1,13 @@
 <script>
     var dsqjs = new DisqusJS({
-        disqus: '{{ site.disqus_shortname }}',
+        shortname: '{{ site.disqus_shortname }}',
+        siteName: '{{ site.disqusjs_siteName }}',
         identifier: document.location.origin + document.location.pathname + document.location.search,
         url: document.location.origin + document.location.pathname + document.location.search,
         title: document.title,
         api: '{{ site.disqusjs_api }}',
         apikey: '{{ site.disqusjs_apikey }}',
+        admin: '{{ site.disqusjs_admin }}',
+        adminLabel: '{{ site.disqusjs_adminLabel }}',
     });
 </script>
