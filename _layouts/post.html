@@ -48,8 +48,8 @@
         {% if page.share != false %}{% include social-share.html %}{% endif %}
       </footer>
     </div><!-- /.entry-content -->
-    <div id="disqus_thread"></div>
-    {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
+<!--    {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section>&lt;!&ndash; /#disqus_thread &ndash;&gt;{% endif %}-->
+    {% if page.comments != false and site.disqus_shortname %}<div id="disqus_thread"></div><!-- /#disqus_thread -->{% endif %}
     {% if site.related_posts.size > 0 %}{% include read-more.html %}{% endif %}
   </article>
 </div><!-- /#main -->
