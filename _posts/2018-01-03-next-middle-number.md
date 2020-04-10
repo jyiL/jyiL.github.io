@@ -9,7 +9,7 @@ image:
 
 ### 获取指定范围内中间值的最接近数
 
-![avatar](../images/algorithm/20180103143147.png)
+![lazy-md-syntax](../images/algorithm/20180103143147.png)
 
 由图看出条件范围区间0~60，中间值是30，最接近30的数是24
 

@@ -19,6 +19,6 @@ image:
 	php artisan log-viewer:publish 
 
 
-![avatar](../images/laravel/laravel-log-viewer.png)
+![lazy-md-syntax](../images/laravel/laravel-log-viewer.png)
 
 > 详情文档可以查看该项目

@@ -9,8 +9,8 @@ image:
 
 ### PHPUnit接口自动化测试
 
-![avatar](../images/phpunit/phpunit03.png)
-![avatar](../images/phpunit/phpunit04.png)
+![lazy-md-syntax](../images/phpunit/phpunit03.png)
+![lazy-md-syntax](../images/phpunit/phpunit04.png)
 
 		//初始化
         $ch = curl_init();

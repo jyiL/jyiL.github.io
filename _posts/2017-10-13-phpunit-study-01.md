@@ -27,7 +27,7 @@ image:
 * 测试都是命名为 test* 的公用方法。 也可以在方法的文档注释块(docblock)中使用 @test 标注将其标记为测试方法。
 
 
-![avatar](../images/phpunit/phpunit01.png)
+![lazy-md-syntax](../images/phpunit/phpunit01.png)
 
     Time: 157 ms, Memory: 6.00MB
 
@@ -70,7 +70,7 @@ PHPUnit支持对测试方法之间的显式依赖关系进行声明。这种依�
 * 生产者(producer)，是能生成被测单元并将其作为返回值的测试方法。
 * 消费者(consumer)，是依赖于一个或多个生产者及其返回值的测试方法。
 
-![avatar](../images/phpunit/phpunit02.png)
+![lazy-md-syntax](../images/phpunit/phpunit02.png)
 
     ...                                            3 / 3 (100%)
     Time: 148 ms, Memory: 6.00MB
