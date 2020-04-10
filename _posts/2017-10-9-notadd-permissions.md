@@ -16,16 +16,16 @@ image:
 * /vendor/notadd/framework/src/Permission/Permission.php
 * /vendor/notadd/framework/src/Permission/PermissionManager.php
 
-![avatar](../images/notadd/temp4cj.png)
-![avatar](../images/notadd/temp4cj1.png)
+![lazy-md-syntax](../images/notadd/temp4cj.png)
+![lazy-md-syntax](../images/notadd/temp4cj1.png)
 调用Permission.php文件下的permission方法
-![avatar](../images/notadd/temp4cj2.png)
+![lazy-md-syntax](../images/notadd/temp4cj2.png)
 传入模块权限配置项跟用户组信息调用permissionManager.php文件下的check方法
-![avatar](../images/notadd/temp4cj3.png)
+![lazy-md-syntax](../images/notadd/temp4cj3.png)
 先判断传入的模块权限配置项是否在setting表key=permissions的数组里面
 然后再判断当前用户组是否在setting设置的模块权限用户组里面
 
 
 
 模块权限配置项写在Control控制器里面
-![avatar](../images/notadd/temp4cj4.png)
+![lazy-md-syntax](../images/notadd/temp4cj4.png)

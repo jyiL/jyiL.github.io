@@ -15,7 +15,10 @@ image:
   <header>
     {% if post.image.feature %}
       <div class="entry-image-index">
-        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.feature }}" alt="{{ post.title }}"></a>
+        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
+<!--          <img src="{{ site.url }}/images/{{ post.image.feature }}" alt="{{ post.title }}">-->
+          <img data-src="{{ site.url }}/images/{{ post.image.feature }}" alt="{{ post.title }}" class="lazyload" />
+        </a>
       </div><!-- /.entry-image -->
     {% endif %}
     <div class="entry-meta">
