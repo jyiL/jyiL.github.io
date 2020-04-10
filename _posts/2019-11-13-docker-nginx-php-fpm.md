@@ -74,7 +74,7 @@ image:
     docker restart nginx
 ```
 
-![lazy-md-syntax](../images/docker/nginx-php-fpm01.png){:height="auto" width="auto" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="}
+![lazy-md-syntax](../images/docker/nginx-php-fpm01.png){:height="auto" width="auto" srcset="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="}
 
 ### 修改php版本
 ```
@@ -87,5 +87,5 @@ image:
     # 运行php7.3容器并打开浏览器输入ip:8080,此时应该能看到php相关信息如下图所示
     docker run -d --name=php -v /data/wwwroot:/var/www/html php:7.3-fpm-alpine
 ```
-![lazy-md-syntax](../images/docker/nginx-php-fpm02.png){:height="auto" width="auto" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="}
+![lazy-md-syntax](../images/docker/nginx-php-fpm02.png){:height="auto" width="auto" srcset="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="}
 
