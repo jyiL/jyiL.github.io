@@ -590,3 +590,7 @@ header .entry-meta {
 #goog-wm-sb {
 	@extend .btn;
 }
+
+img.lazyload:not([src]) {
+	visibility: hidden;
+}
