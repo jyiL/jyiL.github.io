@@ -2,7 +2,7 @@
 layout: page
 title: About the jyiL
 image:
-  feature: abstract-5.jp2
+  feature: abstract-5.jpg
   credit: jyiL
   creditlink: http://www.tasteless.site/about/
 comments: false
