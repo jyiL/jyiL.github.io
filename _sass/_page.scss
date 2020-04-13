@@ -596,6 +596,7 @@ img.lazyload:not([src]) {
 }
 
 @font-face {
-	font-family: 'Glyphicons Halflings';
+	font-family: 'Arvo';
 	font-display: auto;
+	src:local('Arvo'),url(https://fonts.jartto.wang/fonts/temp.woff2)format('woff2');
 }
