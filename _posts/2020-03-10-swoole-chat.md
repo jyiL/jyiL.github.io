@@ -29,7 +29,7 @@ image:
 然后利用swoole table存储用户的昵称，在广播时将用户昵称一并返回给客户端
 
 ### 效果图
-<img srcset="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="../images/swoole/1583828934055.jpg" class="lazyload" />
+<img srcset="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ site.url }}/images/swoole/1583828934055.jpg" class="lazyload" />
 
 
 ### <a href="https://github.com/jyiL/swoole-chat" target="view_window">`项目地址`</a>
