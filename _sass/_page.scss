@@ -594,3 +594,8 @@ header .entry-meta {
 img.lazyload:not([src]) {
 	visibility: hidden;
 }
+
+@font-face {
+	font-family: 'Glyphicons Halflings';
+	font-display: auto;
+}
