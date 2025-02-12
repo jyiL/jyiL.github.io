@@ -5,7 +5,7 @@ description: ""
 image:
   feature: abstract-11.jpg
   credit: jyiL
-  creditlink: https://blog.lunarphp.com/
+  creditlink: https://jyil.github.io/
 ---
 
 广告位招租。。
